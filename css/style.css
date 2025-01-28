@@ -65,6 +65,7 @@ body {
   margin-bottom: 1.5em;
 }
 .about_me__name {
+  margin: 0;
   font-size: 20px;
   font-weight: 600;
   color: white;
