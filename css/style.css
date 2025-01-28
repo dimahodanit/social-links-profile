@@ -86,10 +86,8 @@ body {
 }
 
 .links {
-  max-width: 292px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  display: grid;
+  width: 100%;
 }
 .links__item {
   display: flex;
@@ -102,6 +100,7 @@ body {
   color: white;
   font-size: 14px;
   font-weight: 700;
+  transition: background-color 0.4s, color 0.4s;
 }
 .links__item:hover {
   background: hsl(75, 94%, 57%);
