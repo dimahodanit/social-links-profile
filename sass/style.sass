@@ -1,0 +1,115 @@
+*  
+    box-sizing: border-box
+
+@font-face
+    font-family: "Inter"
+    src : url('../fonts/Inter-Regular.ttf')
+    font-weight: 400
+    font-style: normal
+
+@font-face
+    font-family: "Inter-Bold"
+    src : url('../fonts/Inter-Bold.ttf')
+    font-weight: 700
+    font-style: normal
+
+@font-face
+    font-family: "Inter-SemiBold"
+    src : url('../fonts/Inter-SemiBold.ttf')
+    font-weight: 600
+    font-style: normal
+
+
+html
+    font-family: "Inter"
+    
+
+body
+    background: hsl(0, 0%, 8%)
+    
+.main-section
+    height: 100vh
+    &__container
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+    &__wrapper
+        margin-right: 20px
+        margin-left: 20px
+
+
+.social-wrapper
+    max-width: 360px
+    background: hsl(0, 0%, 12%)
+    border-radius: 10px
+    padding: 34px 34px 34px 34px
+    &__about_me
+        margin-bottom: 1.3em
+        
+
+.about_me
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+    &__avatar
+        max-width: 80px
+        border-radius: 50%
+        margin-bottom: 1.5em
+    &__name
+        font-size: 20px
+        font-weight: 600
+        color: white
+        margin-bottom: 0.5em
+    &__place
+        font-size: 14px
+        color: hsl(75, 94%, 57%)
+        margin-bottom: 1.5em
+    &__profession
+        font-size: 14px
+        color: white
+
+.social-wrapper__item
+    margin-bottom: 1em
+
+.links
+    max-width: 292px
+    display: flex
+    flex-direction: column
+    text-align: center
+    &__item
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 40px
+        background: hsl(0, 0%, 20%)
+        border-radius: 10px
+        text-decoration: none
+        color: white
+        font-size: 14px
+        font-weight: 700
+        &:hover
+            background: hsl(75, 94%, 57%)
+            color: hsl(0, 0%, 12%)
+
+
+        
+
+
+@media (max-width: 575px) //вертикальный телефон
+    .social-wrapper
+        padding: 30px 20px 30px 20px
+    .links
+        max-width: 250px
+
+
+    
+
+
+
+     
+        
+
+    
